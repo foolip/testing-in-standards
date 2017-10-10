@@ -4,7 +4,7 @@
 
 ## Summary
 
-The primary purpose of standards is interoperability, and the ideal end state is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to full interop can be shortened.
+The primary purpose of standards is to achieve interoperable implementations, and the hoped-for outcome is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to real-world interop should be shortened.
 
 ## Definitions
  * An **API** is any behavior that is web exposed, typically being observable directly by scripts, but also by changing what is rendered, what audio is played, how assistive technology behaves, etc..
