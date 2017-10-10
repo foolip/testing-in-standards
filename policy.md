@@ -1,14 +1,15 @@
 # Testing policy
 
-TODO: explain what the point of this is, and the hoped-for "tipping point"
+The history and purpose of testing normative changes is explained in the blog post "[improving interoperability](https://blog.whatwg.org/improving-interoperability)." Through outreach efforts in [2017 Q2, Q3](https://docs.google.com/document/d/1aRpnNQ7Zz_-N9ngdcjQXNjlE1NblppN7lCQwGdxRLlc/edit?usp=sharing) and [Q4](https://docs.google.com/document/d/1GZquS8Jra47E5hIMH2ObOb_7oQFgk8f9MptUAjF0LFI/edit?usp=sharing) and momentum the hope is that soon testing will be an integral part of virtually all web standards work.
 
-Existing policies:
+See also the [Improving interop with web-platform-tests](https://webengineshackfest.org/#portfolio) talk at the 2017 Web Engines Hackfest for background. (Video available soon.)
+
+## Progress
  * WHATWG [contributor](https://github.com/whatwg/meta/blob/master/CONTRIBUTING.md#tests) and [maintainer](https://github.com/whatwg/meta/blob/master/TEAM.md) guidelines ([issue](https://github.com/whatwg/html/issues/1849)) (16 specs)
  * [Service Workers](https://github.com/w3c/ServiceWorker/blob/master/CONTRIBUTING.md) ([PR](https://github.com/w3c/ServiceWorker/pull/1131))
  * [Web Performance WG](https://github.com/w3c/web-performance/blob/gh-pages/CONTRIBUTING.md#test-driven) ([PR](https://github.com/w3c/web-performance/pull/17)) (12 specs)
  * [IndexedDB](https://github.com/w3c/IndexedDB/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/IndexedDB/pull/200))
  * [Pointer Lock](https://github.com/w3c/pointerlock/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/pointerlock/pull/20))
-
  * [Payment Request](https://github.com/w3c/payment-request/blob/gh-pages/test-plan.md) ([commit](https://github.com/w3c/payment-request/commit/139f8b3e2779aadb0a5e4f88c77600dc40405a7a#diff-6684f7304df8a395938c0636514a7461))
  * [Web Animations](https://github.com/w3c/web-animations/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/web-animations/pull/194))
  * [WebVTT](https://github.com/w3c/webvtt/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/webvtt/pull/357))
