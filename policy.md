@@ -17,7 +17,7 @@ See also the "[improving interop with web-platform-tests](https://webengineshack
    * [Compositing and Blending](https://drafts.fxtf.org/compositing/)
    * [CSS Masking](https://drafts.fxtf.org/css-masking/)
    * [CSS Fill and Stroke](https://drafts.fxtf.org/fill-stroke/)
-   * [Filter Effects](https://drafts.fxtf.org/filter-effects-2/)
+   * [Filter Effects](https://drafts.fxtf.org/filter-effects/)
    * [Geometry Interfaces](https://drafts.fxtf.org/geometry/)
    * [Motion Path](https://drafts.fxtf.org/motion/)
  * [CSSWG](https://github.com/w3c/csswg-drafts/blob/master/CONTRIBUTING.md#tests) ([minutes](https://www.w3.org/2017/08/03-css-minutes.html#item06), [issue](https://github.com/w3c/csswg-drafts/issues/1755), [PR](https://github.com/w3c/csswg-drafts/pull/1767)) (32 specs in [CR or later](https://www.w3.org/Style/CSS/current-work) + CSSOM + CSSOM View)
