@@ -24,7 +24,7 @@ If the idea has merit, at some point a first implementation will begin to take s
 
 ### First implementation
 
-Write tentative tests if there is no spec, otherwise plain tests. As the spec is fleshed out, convert tentative tests to normal tests. Super extra special care needed to vet tests at this point. [Tentative tests should be excluded from wpt.fyi](https://github.com/w3c/wptdashboard/issues/99).
+Write [tentative tests](https://github.com/w3c/web-platform-tests/pull/7663) if there is no spec, otherwise plain tests. As the spec is fleshed out, convert tentative tests to normal tests. Super extra special care needed to vet tests at this point. [Tentative tests should be excluded from wpt.fyi](https://github.com/w3c/wptdashboard/issues/99).
 
 Time to adopt a [policy](policy.md) around testing?
 
