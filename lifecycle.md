@@ -4,7 +4,7 @@
 
 ## Summary
 
-The primary purpose of standards is to achieve interoperable implementations, and the hoped-for outcome is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to real-world interop should be shortened.
+The primary purpose of standards is to achieve interoperable implementations, and the desired outcome is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to real-world interop should be shortened.
 
 ## Definitions
  * An **API** is any behavior that is web exposed, typically being observable directly by scripts, but also by changing what is rendered, what audio is played, how assistive technology behaves, etc..
@@ -18,7 +18,9 @@ The primary purpose of standards is to achieve interoperable implementations, an
 
 ### Idea
 
-In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no spec and no implementation. At this point, writing tests will generally not be a good use of time. If the idea has merit, at some point a first implementation will begin to take shape. Don't bother with tests, at most do trivial tests which are easy to get right even with no implementation.
+In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no spec and no implementation. At this point, writing tests will generally not be a good use of time.
+
+If the idea has merit, at some point a first implementation will begin to take shape. Whether this happens before or after the spec TODO
 
 ### First implementation
 
