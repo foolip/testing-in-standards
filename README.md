@@ -2,6 +2,10 @@
 
 *This is an opinion on how to integrate testing into the standards lifecycle. It is well aligned with the [WHATWG working mode](https://whatwg.org/working-mode) and [W3C testing how-to](https://github.com/w3c/testing-how-to/) but has no official status.*
 
+## Summary
+
+The primary purpose of standards is interoperability, and the ideal end state is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to full interop can be shortened.
+
 ## Definitions
  * An **API** is any behavior that is web exposed, typically being observable directly by scripts, but also by changing what is rendered, what audio is played, how assistive technology behaves, etc..
  * **Interoperability** is when an API has the same web exposed behavior in multiple browser engines, and **full interoperability** is when it behaves the same in all engines that are in wide use, currently Blink, EdgeHTML, Gecko and WebKit.
@@ -10,25 +14,23 @@
 
 (From "[Finding a path to interop](https://docs.google.com/document/d/1LSuLWJDP02rlC9bOlidL6DzBV5kSkV5bW5Pled8HGC8/edit?usp=sharing)")
 
-## Summary
+## Lifecycle
 
-The primary purpose of standards is interoperability, and the ideal end state is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to full interop can be shortened.
-
-## Idea
+### Idea
 
 In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no spec and no implementation. At this point, writing tests will generally not be a good use of time. If the idea has merit, at some point a first implementation will begin to take shape. Don't bother with tests, at most do trivial tests which are easy to get right even with no implementation.
 
-## First implementation
+### First implementation
 
 Write tentative tests if there is no spec, otherwise plain tests. As the spec is fleshed out, convert tentative tests to normal tests. Super extra special care needed to vet tests at this point. [Tentative tests should be excluded from wpt.fyi](https://github.com/w3c/wptdashboard/issues/99).
 
 Time to adopt a [policy](policy.md) around testing?
 
-## Second implementation
+### Second implementation
 
 Second implementer still needs to be skeptical of the tests and their coverage. Write more, fix the spec!
 
-## Full interoperability
+### Full interoperability
 
 For a mature standard, the [WHATWG working mode](https://whatwg.org/working-mode) works well.
 
