@@ -2,7 +2,7 @@
 
 The history and purpose of testing normative changes is explained in the blog post "[improving interoperability](https://blog.whatwg.org/improving-interoperability)." Through outreach efforts in [2017 Q2, Q3](https://docs.google.com/document/d/1aRpnNQ7Zz_-N9ngdcjQXNjlE1NblppN7lCQwGdxRLlc/edit?usp=sharing) and [Q4](https://docs.google.com/document/d/1GZquS8Jra47E5hIMH2ObOb_7oQFgk8f9MptUAjF0LFI/edit?usp=sharing) – and momentum – the hope is that soon testing will be an integral part of virtually all web standards work.
 
-See also the [Improving interop with web-platform-tests](https://webengineshackfest.org/#portfolio) talk at the 2017 Web Engines Hackfest for background. (Video available soon.)
+See also the "[improving interop with web-platform-tests](https://webengineshackfest.org/#portfolio)" talk at the 2017 Web Engines Hackfest for background. (Video available soon.)
 
 ## Progress
  * WHATWG [contributor](https://github.com/whatwg/meta/blob/master/CONTRIBUTING.md#tests) and [maintainer](https://github.com/whatwg/meta/blob/master/TEAM.md) guidelines ([issue](https://github.com/whatwg/html/issues/1849)) (16 specs)
