@@ -40,4 +40,4 @@ Following implementers will find a standard and test suite that is in increasing
 
 ### Full interop
 
-As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling like [web-platform-tests PR status](https://pulls.web-platform-tests.org) and the [web-platform-tests dashboard](https://wpt.fyi) should make it impossible to accidentally depart from full interop.
+As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling like [web-platform-tests PR status](https://pulls.web-platform-tests.org) and the [web-platform-tests dashboard](https://wpt.fyi) should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
