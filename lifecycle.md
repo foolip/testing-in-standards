@@ -6,7 +6,7 @@
 
 The primary purpose of standards is to achieve interoperable implementations, and the desired outcome is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to real-world interop should be shortened.
 
-See "[Finding a path to interop](https://docs.google.com/document/d/1LSuLWJDP02rlC9bOlidL6DzBV5kSkV5bW5Pled8HGC8/edit?usp=sharing)" for definitions of *interoperability* and *full interoperability*.
+(See "[Finding a path to interop](https://docs.google.com/document/d/1LSuLWJDP02rlC9bOlidL6DzBV5kSkV5bW5Pled8HGC8/edit?usp=sharing)" for definitions of *interoperability* and *full interoperability*.)
 
 ## Lifecycle
 
