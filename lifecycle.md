@@ -41,3 +41,21 @@ Following implementers will find a standard and test suite that is in increasing
 ### Full interop
 
 As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling like [web-platform-tests PR status](https://pulls.web-platform-tests.org) and the [web-platform-tests dashboard](https://wpt.fyi) should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
+
+## What about?
+
+### Writing tests even earlier?
+
+It is very difficult to write good tests without any implementation at all. The goal is not to be test-driven, the important part is that tests are shared when they are written and no later. That being said, [idlharness.js](http://web-platform-tests.org/writing-tests/idlharness.html) and similarly trivial tests can be written early.
+
+### Keeping tentative tests out of web-platform-tests?
+
+Risks of tentative tests in web-platform-tests:
+ * If treated like regular tests, they would influence incentives. (See wpt.fyi issues [#83](https://github.com/w3c/wptdashboard/issues/83) and [#99](https://github.com/w3c/wptdashboard/issues/99).)
+ * When converting tentative tests to regular tests, it is tempting to do very light review.
+ * Without a triage process, they might be left for a very long time. (TODO)
+
+Risks of engine-specific tests:
+ * Shared tests wouldn't be the initial default, making it more tempting to use vendor-specific testing APIs.
+ * Upstreaming a large number of engine-specific tests is some amount of work, and risks being delayed.
+ * If a second implementer becomes interested early, they might be blocked on the first implementer sharing their tests.
