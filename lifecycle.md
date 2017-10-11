@@ -34,7 +34,7 @@ The [web-platform-tests dashboard](https://wpt.fyi) or similar dashboard can be 
 
 ### Second implementation and beyond
 
-A second implementer will almost certainly discover spec bugs, test bugs and missing test coverage. This will result in new failing tests for the first implementer, which is a very good outcome. (Without shared tests, interop problems could otherwise go unnoticed until much later.)
+A second implementer will almost certainly discover spec bugs, test bugs and missing test coverage. This will result in new failing tests for the first implementer, which should be very welcome. (Without shared tests, interop problems could otherwise go unnoticed until much later.)
 
 Following implementers will find a standard and test suite that is in increasingly good shape, which should reduce the total time required to implement and ship.
 
