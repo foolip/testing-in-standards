@@ -6,13 +6,7 @@
 
 The primary purpose of standards is to achieve interoperable implementations, and the desired outcome is full interoperability that web developers can depend on. By writing and sharing tests as soon as implementation begins and making testing an integrated part of the standards process, the time from idea to real-world interop should be shortened.
 
-## Definitions
- * An **API** is any behavior that is web exposed, typically being observable directly by scripts, but also by changing what is rendered, what audio is played, how assistive technology behaves, etc..
- * **Interoperability** is when an API has the same web exposed behavior in multiple browser engines, and **full interoperability** is when it behaves the same in all engines that are in wide use, currently Blink, EdgeHTML, Gecko and WebKit.
- * **Conformance** is when an implementation matches the normative requirements of the standard.
- * **Compatibility** is when an implementation actually works with web pages "in the wild."
-
-(From "[Finding a path to interop](https://docs.google.com/document/d/1LSuLWJDP02rlC9bOlidL6DzBV5kSkV5bW5Pled8HGC8/edit?usp=sharing)")
+See "[Finding a path to interop](https://docs.google.com/document/d/1LSuLWJDP02rlC9bOlidL6DzBV5kSkV5bW5Pled8HGC8/edit?usp=sharing)" for definitions of *interoperability* and *full interoperability*.
 
 ## Lifecycle
 
