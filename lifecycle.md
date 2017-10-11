@@ -30,7 +30,7 @@ By the time the first implementation ships there should ideally be no tentative 
 
 When the first implementation ships, the standard and tests ought to be in good shape, so asking "What do implementations do?" and "What do the tests reveal?" for spec changes (see [WHATWG working mode](https://whatwg.org/working-mode)) becomes relevant. Around this time it would make sense to adopt a [policy for testing normative spec changes](policy.md).
 
-The [web-platform-tests dashboard](https://wpt.fyi) and [web-platform-tests PR dashboard](https://pulls.web-platform-tests.org) and  make it easier to understand the current status of tests and implication of proposed changes.
+The [wpt.fyi](https://wpt.fyi) dashboard and [PR status](https://pulls.web-platform-tests.org) and  make it easier to understand the current status of tests and implication of proposed changes.
 
 ### Second implementation and beyond
 
