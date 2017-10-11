@@ -59,3 +59,5 @@ Risks of engine-specific tests:
  * Shared tests wouldn't be the initial default, making it more tempting to use vendor-specific testing APIs.
  * Upstreaming a large number of engine-specific tests is some amount of work, and risks being delayed.
  * If a second implementer becomes interested early, they might be blocked on the first implementer sharing their tests.
+
+It's not an open-and-shut case, but sharing test as early as possibly seems best.
