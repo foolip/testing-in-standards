@@ -1,4 +1,4 @@
-# Testing in standards: from idea to interop
+# Testing in standards: from idea to full interop
 
 *This is an opinion on how to integrate testing into the standards lifecycle. It is well aligned with the [WHATWG working mode](https://whatwg.org/working-mode) and [W3C testing how-to](https://github.com/w3c/testing-how-to/) but has no official status.*
 
@@ -12,34 +12,32 @@ The primary purpose of standards is to achieve interoperable implementations, an
 
 ### Idea
 
-In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no spec and no implementation. At this point, writing tests will generally not be a good use of time.
-
-If the idea has merit, at some point a first implementation will begin to take shape. Whether this happens before or after the spec TODO
+In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no standard and no implementation. At this point, writing tests will probably not be a good use of time.
 
 ### First implementation
 
-Write [tentative tests](http://web-platform-tests.org/writing-tests/file-names.html#test-features) if there is no spec, otherwise plain tests. As the spec is fleshed out, convert tentative tests to normal tests. Super extra special care needed to vet tests at this point. [Tentative tests should be excluded from wpt.fyi](https://github.com/w3c/wptdashboard/issues/99).
+If the idea gets traction, at some point a first implementation will begin. This could be before or after the standard has begun to take shape, but for any non-trivial idea will be well before the standard is fully formed.
 
-Time to adopt a [policy](policy.md) around testing?
+All tests for web-exposed behavior that are written for the first implementation should be shared. They will fall into one of two categories:
+ 1. The standard already covers this behavior. Write regular tests. 
+ 2. The standard doesn't, or no standard exists yet. Then, write [tentative tests](http://web-platform-tests.org/writing-tests/file-names.html#test-features). Make it clear why the test is tentative, for example with a link to an open spec issue.
 
-### Second implementation
+Tentative tests should be revisited and converted to regular tests as the standard catches up. Because they were originally not reviewed against any spec text, converted tests must be reviewed as if they were new, not as a simple renaming.
 
-Second implementer still needs to be skeptical of the tests and their coverage. Write more, fix the spec!
+By the time the first implementation ships there should ideally be no tentative tests.
 
-### Full interoperability
+### Testing policy
 
-For a mature standard, the [WHATWG working mode](https://whatwg.org/working-mode) works well.
+When the first implementation ships, the standard and tests ought to be in good shape, so asking "What do implementations do?" and "What do the tests reveal?" for spec changes (see [WHATWG working mode](https://whatwg.org/working-mode)) becomes relevant. Around this time it would make sense to adopt a [policy for testing normative spec changes](policy.md).
 
-## What about?
+The [web-platform-tests dashboard](https://wpt.fyi) or similar can be used to determine the status of tests.
 
-### Writing tests as soon as there is a spec?
+### Second implementation and beyond
 
-It's hard to write very deep tests without an implementation.
+A second implementer will almost certainly discover spec bugs, test bugs and missing test coverage. This will result in new failing tests for the first implementer, which is a very good outcome. (Without shared tests, interop problems could otherwise go unnoticed until much later.)
 
-### Tying testing policy to Candidate Recommendations (CR)?
+Following implementers will find a standard and test suite that is in increasingly good shape, which should reduce the total time required to implement and ship.
 
-Implementation may have begun much earlier.
+### Full interop
 
-### Coverage?
-
-There's a long history of trying to figure out how to asses how well a test suite covers its spec. Tooling around this could still be worth investigating. However, by having shared tests be the only tests, we lean on the code review practices of all engines to notice when what is being implemented is insufficiently tested.
+As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling like [web-platform-tests PR status](https://pulls.web-platform-tests.org) and the [web-platform-tests dashboard](https://wpt.fyi) should make it impossible to accidentally depart from full interop.
