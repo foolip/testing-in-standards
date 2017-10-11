@@ -30,7 +30,7 @@ By the time the first implementation ships there should ideally be no tentative 
 
 When the first implementation ships, the standard and tests ought to be in good shape, so asking "What do implementations do?" and "What do the tests reveal?" for spec changes (see [WHATWG working mode](https://whatwg.org/working-mode)) becomes relevant. Around this time it would make sense to adopt a [policy for testing normative spec changes](policy.md).
 
-The [web-platform-tests dashboard](https://wpt.fyi) or similar dashboard can be used to determine the status of tests.
+The [web-platform-tests dashboard](https://wpt.fyi) and [web-platform-tests PR dashboard](https://pulls.web-platform-tests.org) and  make it easier to understand the current status of tests and implication of proposed changes.
 
 ### Second implementation and beyond
 
@@ -40,7 +40,7 @@ Following implementers will find a standard and test suite that is in increasing
 
 ### Full interop
 
-As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling like [web-platform-tests PR status](https://pulls.web-platform-tests.org) and the [web-platform-tests dashboard](https://wpt.fyi) should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
+As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
 
 ## What about?
 
