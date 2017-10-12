@@ -53,7 +53,7 @@ As the standard, test suite and implementations co-evolve, an increasing number 
 
 Note: The order of spec text, tests and implementation isn't always the same, and it's not clear that there's a single best order. Any working mode that feels productive and results in quality all around should be embraced.
 
-## How about keeping tentative tests out of web-platform-tests?
+## Risks
 
 Risks of tentative tests in web-platform-tests:
  * If treated like regular tests, they would influence incentives. (See wpt.fyi issues [#83](https://github.com/w3c/wptdashboard/issues/83) and [#99](https://github.com/w3c/wptdashboard/issues/99).)
@@ -66,3 +66,8 @@ Risks of engine-specific tests:
  * If a second implementer becomes interested early, they might be blocked on the first implementer sharing their tests.
 
 It's not an open-and-shut case, but sharing tests as early as possibly seems best.
+
+## Resources
+ * The web-platform-tests documentation on [writing](http://web-platform-tests.org/writing-tests/) and [reviewing](http://web-platform-tests.org/reviewing-tests/) tests
+ * The [web-platform-tests dashboard](https://wpt.fyi/) (wpt.fyi)
+ * Chromium's documentation on [web-platform-tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md), [writing layout tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/writing_layout_tests.md) and the [layout tests tips](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/layout_tests_tips.md)
