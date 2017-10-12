@@ -12,7 +12,7 @@ The primary purpose of standards is to achieve interoperable implementations, an
 
 ### Idea
 
-In the earliest stages, only an [explainer](https://docs.google.com/document/d/1cJs7GkdQolqOHns9k6v1UjCUb_LqTFVjZM-kc3TbNGI/edit?usp=sharing) will exist, there will be no standard and no implementation. At this point, writing tests is probably not a good use of time.
+In the earliest stages, only an [explainer](https://docs.google.com/document/d/1cJs7GkdQolqOHns9k6v1UjCUb_LqTFVjZM-kc3TbNGI/edit?usp=sharing) will exist, there will be no standard, no tests, and no implementation.
 
 ### First implementation
 
@@ -46,13 +46,14 @@ For a mature standard, the whole process can repeat for proposed changes. New id
 
 As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
 
-## What about?
+## Examples
+ * DOM: mature [standard](https://dom.spec.whatwg.org/) and [test suite](https://github.com/w3c/web-platform-tests/tree/master/dom).
+ * HTML: the messagerror event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written before any implementation.
+ * Trusted Types: [explainer](https://github.com/mikewest/trusted-types/blob/master/README.md) and [tentative tests](https://github.com/w3c/web-platform-tests/tree/cbc2da38b90e0870ac50a205d2fc2773de41bd5d/trusted-types).
 
-### Writing tests even earlier?
+*Note: Whether writing tests first or implementing first is most productive depends on circumstances. The most important thing is that tests are written and shared, not the order.*
 
-It is very difficult to write good tests without any implementation at all. The goal is not to be test-driven, the important part is that tests are shared when they are written and no later. That being said, [idlharness.js](http://web-platform-tests.org/writing-tests/idlharness.html) and similarly trivial tests can be written early.
-
-### Keeping tentative tests out of web-platform-tests?
+## How about keeping tentative tests out of web-platform-tests?
 
 Risks of tentative tests in web-platform-tests:
  * If treated like regular tests, they would influence incentives. (See wpt.fyi issues [#83](https://github.com/w3c/wptdashboard/issues/83) and [#99](https://github.com/w3c/wptdashboard/issues/99).)
