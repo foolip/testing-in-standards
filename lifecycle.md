@@ -45,7 +45,7 @@ For a mature standard, the whole process can repeat for proposed changes. New id
 As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
 
 ## Examples
- * HTML: the messagerror event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written side-by-side and merged together, before any implementation.
+ * HTML: the `messageerror` event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written side-by-side and merged together, before any implementation.
  * Fetch: aborting [spec change](https://github.com/whatwg/fetch/pull/523) and [tests](https://github.com/w3c/web-platform-tests/pull/6484) also written together, and test bug fixed during [implementation](https://bugzilla.mozilla.org/show_bug.cgi?id=1378342).
  * Trusted Types: [explainer](https://github.com/mikewest/trusted-types/blob/master/README.md) and [tentative tests](https://github.com/w3c/web-platform-tests/tree/cbc2da38b90e0870ac50a205d2fc2773de41bd5d/trusted-types) written before spec text.
 
