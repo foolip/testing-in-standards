@@ -49,7 +49,7 @@ As the standard, test suite and implementations co-evolve, an increasing number 
 ## Examples
  * DOM: mature [standard](https://dom.spec.whatwg.org/) and [test suite](https://github.com/w3c/web-platform-tests/tree/master/dom).
  * HTML: the messagerror event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written before any implementation.
- * Trusted Types: [explainer](https://github.com/mikewest/trusted-types/blob/master/README.md) and [tentative tests](https://github.com/w3c/web-platform-tests/tree/cbc2da38b90e0870ac50a205d2fc2773de41bd5d/trusted-types).
+ * Trusted Types: [explainer](https://github.com/mikewest/trusted-types/blob/master/README.md) and [tentative tests](https://github.com/w3c/web-platform-tests/tree/cbc2da38b90e0870ac50a205d2fc2773de41bd5d/trusted-types) written before spec text.
 
 *Note: Whether writing tests first or implementing first is most productive depends on circumstances. The most important thing is that tests are written and shared, not the order.*
 
