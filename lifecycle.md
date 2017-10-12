@@ -48,6 +48,7 @@ As the standard, test suite and implementations co-evolve, an increasing number 
 
 ## Examples
  * DOM: mature [standard](https://dom.spec.whatwg.org/) and [test suite](https://github.com/w3c/web-platform-tests/tree/master/dom).
+ * Fetch: aborting [spec change](https://github.com/whatwg/fetch/pull/523) and [tests](https://github.com/w3c/web-platform-tests/pull/6484) written together, and test bug fixed during [implementation](https://bugzilla.mozilla.org/show_bug.cgi?id=1378342).
  * HTML: the messagerror event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written before any implementation.
  * Trusted Types: [explainer](https://github.com/mikewest/trusted-types/blob/master/README.md) and [tentative tests](https://github.com/w3c/web-platform-tests/tree/cbc2da38b90e0870ac50a205d2fc2773de41bd5d/trusted-types) written before spec text.
 
