@@ -30,8 +30,6 @@ By the time the first implementation ships there should ideally be no tentative 
 
 When the first implementation ships, the standard and tests ought to be in good shape, so asking "What do implementations do?" and "What do the tests reveal?" for spec changes (see [WHATWG working mode](https://whatwg.org/working-mode)) becomes relevant. Around this time it would make sense to adopt a [policy for testing normative spec changes](policy.md).
 
-The [wpt.fyi](https://wpt.fyi) dashboard and [PR results](https://pulls.web-platform-tests.org) tool make it easier to understand the current status of tests and effects of proposed changes.
-
 ### Second implementation
 
 A second implementer will almost certainly discover spec bugs, test bugs and missing test coverage. This will result in new failing tests for the first implementer, which should be very welcome. (Without shared tests, interop problems could otherwise go unnoticed until much later.)
@@ -70,4 +68,5 @@ It's not an open-and-shut case, but sharing tests as early as possibly seems bes
 ## Resources
  * The web-platform-tests documentation on [writing](http://web-platform-tests.org/writing-tests/) and [reviewing](http://web-platform-tests.org/reviewing-tests/) tests
  * The [web-platform-tests dashboard](https://wpt.fyi/) (wpt.fyi)
+ * The [web-platform-tests PR results](https://pulls.web-platform-tests.org) (posts comments to GitHub PRs)
  * Chromium's documentation on [web-platform-tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md), [writing layout tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/writing_layout_tests.md) and the [layout tests tips](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/layout_tests_tips.md)
