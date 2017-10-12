@@ -32,11 +32,15 @@ When the first implementation ships, the standard and tests ought to be in good 
 
 The [wpt.fyi](https://wpt.fyi) dashboard and [PR results](https://pulls.web-platform-tests.org) tool make it easier to understand the current status of tests and effects of proposed changes.
 
-### Second implementation and beyond
+### Second implementation
 
 A second implementer will almost certainly discover spec bugs, test bugs and missing test coverage. This will result in new failing tests for the first implementer, which should be very welcome. (Without shared tests, interop problems could otherwise go unnoticed until much later.)
 
-Following implementers will find a standard and test suite that is in increasingly good shape, which should reduce the total time required to implement and ship.
+### Mature standard
+
+Following implementers will find a standard and test suite that are in increasingly good shape, and the existing test suite should lower the time/cost to implement.
+
+For a mature standard, the whole process can repeat for proposed changes. New ideas start as issues, tests are modified or added, and implementer experience helps shape the spec and tests into their final form.
 
 ### Full interop
 
