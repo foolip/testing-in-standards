@@ -12,7 +12,7 @@ The primary purpose of standards is to achieve interoperable implementations, an
 
 ### Idea
 
-In the earliest stages, only an explainer ([example](https://github.com/w3c/ServiceWorker/blob/master/explainer.md)) will exist, there will be no standard and no implementation. At this point, writing tests is probably not a good use of time.
+In the earliest stages, only an [explainer](https://docs.google.com/document/d/1cJs7GkdQolqOHns9k6v1UjCUb_LqTFVjZM-kc3TbNGI/edit?usp=sharing) will exist, there will be no standard and no implementation. At this point, writing tests is probably not a good use of time.
 
 ### First implementation
 
