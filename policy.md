@@ -21,6 +21,7 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
    * [Geometry Interfaces](https://drafts.fxtf.org/geometry/)
    * [Motion Path](https://drafts.fxtf.org/motion/)
  * [CSSWG](https://github.com/w3c/csswg-drafts/blob/master/CONTRIBUTING.md#tests) ([minutes](https://www.w3.org/2017/08/03-css-minutes.html#item06), [issue](https://github.com/w3c/csswg-drafts/issues/1755), [PR](https://github.com/w3c/csswg-drafts/pull/1767)) (32 specs in [CR or later](https://www.w3.org/Style/CSS/current-work) + CSSOM + CSSOM View)
+ * [Intersection Observer](https://github.com/w3c/IntersectionObserver/blob/master/CONTRIBUTING.md#tests) ([commit](https://github.com/w3c/IntersectionObserver/commit/1b81b995fd9a1d208b452f20327b5a5921bffb41))
  * [SVGWG](https://github.com/w3c/svgwg/blob/master/CONTRIBUTING.md#tests) ([commit](https://github.com/w3c/svgwg/commit/18eb74f259296423a25538dacb6519b812ad179f), [charter](https://www.w3.org/2017/04/svg-2017.html#deliverables), [background](https://github.com/w3c/testing-how-to/pull/4)) (8 specs)
  * [Content Security Policy](https://github.com/w3c/webappsec-csp/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/webappsec-csp/pull/230))
  * [Generic Sensor API](https://github.com/w3c/sensors/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/sensors/pull/316))
