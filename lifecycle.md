@@ -42,7 +42,7 @@ For a mature standard, the whole process can repeat for proposed changes. New id
 
 ### Full interop
 
-As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling should make it impossible to accidentally depart from full interop. Web developers can depend on the feature and delight their users, in any browser.
+As the standard, test suite and implementations co-evolve, an increasing number of tests will pass everywhere. For those tests, however trivial, full interop has been achieved. Once achieved, tooling should make it impossible to accidentally depart from full interop. Web developers can depend on the feature to work the same way in any browser.
 
 ## Examples
  * HTML: the `messageerror` event had [spec text](https://github.com/whatwg/html/pull/2530) and [tests](https://github.com/w3c/web-platform-tests/pull/5567) written side-by-side and merged together, before any implementation.
