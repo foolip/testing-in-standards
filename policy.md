@@ -29,6 +29,12 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [File API](https://github.com/w3c/FileAPI/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/FileAPI/pull/85))
  * [Static Range](https://github.com/w3c/staticrange/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/staticrange/pull/11))
  * [UI Events](https://github.com/w3c/uievents/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/uievents/pull/163))
+ * [File and Directory Entries](https://github.com/WICG/entries-api/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/entries-api/pull/22))
+ * [Resize Observer](https://github.com/WICG/ResizeObserver/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/ResizeObserver/pull/44))
+ * [Web Audio API](https://github.com/WebAudio/web-audio-api/blob/gh-pages/README.md#tests) ([PR](https://github.com/WebAudio/web-audio-api/pull/1423))
+ * [Keyboard Lock](https://github.com/w3c/keyboard-lock/blob/gh-pages/README.md#tests) ([PR](https://github.com/w3c/keyboard-lock/pull/36))
+ * [WebUSB](https://github.com/WICG/webusb/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/webusb/pull/109))
+ * [Feature Policy](https://github.com/WICG/feature-policy/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/feature-policy/pull/91)) (wording tweak, copy from this one)
 
 This is ~90 specs.
 
