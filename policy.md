@@ -30,10 +30,10 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Static Range](https://github.com/w3c/staticrange/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/staticrange/pull/11))
  * [UI Events](https://github.com/w3c/uievents/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/uievents/pull/163))
 
-This is ~80 specs.
+This is ~90 specs.
 
 # Ongoing work
 
-In https://foolip.github.io/day-to-day/ there are ~180 specs, so ~100 remain.
+In https://foolip.github.io/day-to-day/ there are ~200 specs, so ~110 remain.
 
 See "[a policy for web-platform-tests coverage is adopted for 40 more specs](https://docs.google.com/document/d/1GZquS8Jra47E5hIMH2ObOb_7oQFgk8f9MptUAjF0LFI/edit#heading=h.3jtyy5sjt1rp)" in Ecosystem Infra 2017 Q4 OKRs.
