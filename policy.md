@@ -35,6 +35,7 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Keyboard Lock](https://github.com/w3c/keyboard-lock/blob/gh-pages/README.md#tests) ([PR](https://github.com/w3c/keyboard-lock/pull/36))
  * [WebUSB](https://github.com/WICG/webusb/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/webusb/pull/109))
  * [Feature Policy](https://github.com/WICG/feature-policy/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/feature-policy/pull/91)) (wording tweak, copy from this one)
+ * [Vibration](https://github.com/w3c/vibration/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/vibration/pull/20))
 
 This is ~90 specs.
 
