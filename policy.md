@@ -37,6 +37,7 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Feature Policy](https://github.com/WICG/feature-policy/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/feature-policy/pull/91)) (wording tweak, copy from this one)
  * [Vibration](https://github.com/w3c/vibration/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/vibration/pull/20))
  * [Touch Events](https://github.com/w3c/touch-events/blob/gh-pages/README.md#tests) ([PR](https://github.com/w3c/touch-events/pull/90))
+ * [WebVR](https://github.com/w3c/webvr/blob/master/README.md#tests) ([PR](https://github.com/w3c/webvr/pull/295))
  
 This is ~90 specs.
 
