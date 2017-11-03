@@ -24,7 +24,16 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Intersection Observer](https://github.com/w3c/IntersectionObserver/blob/master/CONTRIBUTING.md#tests) ([commit](https://github.com/w3c/IntersectionObserver/commit/1b81b995fd9a1d208b452f20327b5a5921bffb41))
  * [SVGWG](https://github.com/w3c/svgwg/blob/master/CONTRIBUTING.md#tests) ([commit](https://github.com/w3c/svgwg/commit/18eb74f259296423a25538dacb6519b812ad179f), [charter](https://www.w3.org/2017/04/svg-2017.html#deliverables), [background](https://github.com/w3c/testing-how-to/pull/4)) (8 specs)
  * [Content Security Policy](https://github.com/w3c/webappsec-csp/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/webappsec-csp/pull/230))
- * [Generic Sensor API](https://github.com/w3c/sensors/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/sensors/pull/316))
+ * Device APIs Working Group:
+    * [[DRAFT] Devices and Sensors Working Group Charter](https://w3c.github.io/dap-charter/DeviceAPICharter.html#deliverables) ([PR](https://github.com/w3c/dap-charter/pull/51))
+    * [Ambient Light](https://github.com/w3c/ambient-light/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/ambient-light/pull/47))
+   * [Accelerometer](https://github.com/w3c/accelerometer/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/accelerometer/pull/29))
+   * [Battery Status API](https://github.com/w3c/battery/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/battery/pull/14))
+   * [Generic Sensor API](https://github.com/w3c/sensors/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/sensors/pull/316))
+   * [Gyroscope](https://github.com/w3c/gyroscope/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/gyroscope/pull/26))
+   * [HTML Media Capture](https://github.com/w3c/html-media-capture/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/html-media-capture/pull/18))
+   * [Magnetometer](https://github.com/w3c/magnetometer/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/magnetometer/pull/38))
+   * [Orientation Sensor](https://github.com/w3c/orientation-sensor/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/orientation-sensor/pull/52))
  * [Clipboard API and Events](https://github.com/w3c/clipboard-apis/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/clipboard-apis/pull/56))
  * [File API](https://github.com/w3c/FileAPI/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/FileAPI/pull/85))
  * [Static Range](https://github.com/w3c/staticrange/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/staticrange/pull/11))
@@ -37,9 +46,10 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Feature Policy](https://github.com/WICG/feature-policy/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/WICG/feature-policy/pull/91)) (wording tweak, copy from this one)
  * [Vibration](https://github.com/w3c/vibration/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/vibration/pull/20))
  * [Touch Events](https://github.com/w3c/touch-events/blob/gh-pages/README.md#tests) ([PR](https://github.com/w3c/touch-events/pull/90))
+ * [Gamepad API](https://github.com/w3c/gamepad/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/gamepad/pull/64))
  * [WebVR](https://github.com/w3c/webvr/blob/master/README.md#tests) ([PR](https://github.com/w3c/webvr/pull/295))
  * [DOM Parsing and Serialization](https://github.com/w3c/DOM-Parsing/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/DOM-Parsing/pull/32))
- 
+
 This is ~90 specs.
 
 # Ongoing work
