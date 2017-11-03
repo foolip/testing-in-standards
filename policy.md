@@ -50,10 +50,10 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [WebVR](https://github.com/w3c/webvr/blob/master/README.md#tests) ([PR](https://github.com/w3c/webvr/pull/295))
  * [DOM Parsing and Serialization](https://github.com/w3c/DOM-Parsing/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/DOM-Parsing/pull/32))
 
-This is ~90 specs.
+This is ~105 specs.
 
 # Ongoing work
 
-In https://foolip.github.io/day-to-day/ there are ~200 specs, so ~110 remain.
+In https://foolip.github.io/day-to-day/ there are ~210 specs, so we're 50% done!
 
 See "[a policy for web-platform-tests coverage is adopted for 40 more specs](https://docs.google.com/document/d/1GZquS8Jra47E5hIMH2ObOb_7oQFgk8f9MptUAjF0LFI/edit#heading=h.3jtyy5sjt1rp)" in Ecosystem Infra 2017 Q4 OKRs.
