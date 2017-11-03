@@ -5,7 +5,7 @@ The history and purpose of testing normative changes is explained in the blog po
 See "[from idea to full interop](lifecycle.md)" for how this might fit into the standards lifecycle. The "[improving interop with web-platform-tests](https://webengineshackfest.org/#portfolio)" talk also covers some of the same ground.
 
 ## Progress
- * WHATWG [contributor](https://github.com/whatwg/meta/blob/master/CONTRIBUTING.md#tests) and [maintainer](https://github.com/whatwg/meta/blob/master/TEAM.md) guidelines ([issue](https://github.com/whatwg/html/issues/1849)) (16 specs)
+ * WHATWG [contributor](https://github.com/whatwg/meta/blob/master/CONTRIBUTING.md#tests) and [maintainer](https://github.com/whatwg/meta/blob/master/TEAM.md) guidelines ([issue](https://github.com/whatwg/html/issues/1849)) ([14 specs](https://spec.whatwg.org/))
  * [Service Workers](https://github.com/w3c/ServiceWorker/blob/master/CONTRIBUTING.md) ([PR](https://github.com/w3c/ServiceWorker/pull/1131))
  * [Web Performance WG](https://github.com/w3c/web-performance/blob/gh-pages/CONTRIBUTING.md#test-driven) ([PR](https://github.com/w3c/web-performance/pull/17)) (12 specs)
  * [IndexedDB](https://github.com/w3c/IndexedDB/blob/master/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/IndexedDB/pull/200))
