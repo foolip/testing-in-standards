@@ -50,6 +50,9 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [Gamepad API](https://github.com/w3c/gamepad/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/gamepad/pull/64))
  * [WebVR](https://github.com/w3c/webvr/blob/master/README.md#tests) ([PR](https://github.com/w3c/webvr/pull/295))
  * [DOM Parsing and Serialization](https://github.com/w3c/DOM-Parsing/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/DOM-Parsing/pull/32))
+ * [Web MIDI API](https://github.com/WebAudio/web-midi-api/blob/gh-pages/README.md#tests) ([PR](https://github.com/WebAudio/web-midi-api/pull/182))
+ * [WebRTC](https://github.com/w3c/webrtc-pc/blob/master/CONTRIBUTING.md#tests) ([issue](https://github.com/w3c/webrtc-pc/issues/1617), [PR](https://github.com/w3c/webrtc-pc/pull/1657))
+ * [Presentation API](https://github.com/w3c/presentation-api/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/presentation-api/pull/445))
 
 This is ~105 specs.
 
