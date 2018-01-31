@@ -54,6 +54,7 @@ See "[from idea to full interop](lifecycle.md)" for how this might fit into the 
  * [WebRTC](https://github.com/w3c/webrtc-pc/blob/master/CONTRIBUTING.md#tests) ([issue](https://github.com/w3c/webrtc-pc/issues/1617), [PR](https://github.com/w3c/webrtc-pc/pull/1657))
  * [Presentation API](https://github.com/w3c/presentation-api/blob/gh-pages/CONTRIBUTING.md#tests) ([PR](https://github.com/w3c/presentation-api/pull/445))
  * [Web Application Security WG](https://github.com/w3c/webappsec/blob/master/CONTRIBUTING.md#test-driven) ([PR](https://github.com/w3c/webappsec/pull/535)) (12 specs)
+ * [Houdini TF](https://github.com/w3c/css-houdini-drafts/blob/master/README.markdown#tests) ([PR](https://github.com/w3c/css-houdini-drafts/pull/493))
 
 This is ~105 specs.
 
